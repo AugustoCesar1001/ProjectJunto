@@ -1,0 +1,28 @@
+        == Comandos GIT ==
+
+    - Inicialização
+
+01 - Escolha o local da criação do repositório
+02 - digite os comandos:
+03 - mkdir meurepo
+04 - cd meurepo
+05 - code .
+06 - Git Init
+02 - git add .\README.md   - Arquivos especificos
+03 - git add -all          - Adicionar Todos  
+04 - git commit -m "Adicionando arquivo readme.md"
+05 - git remote add origin "Endereço do Repositório no GitHub"
+
+    - Clonar Projetos
+
+01 - git clone "Endereço do Repositório"
+
+    - Enviar Atualizações
+
+01 - git add all or .\
+02 - git commit -m "Comentário sobre os arquivos alterados ou criados"
+03 - git push -u origin master or --force
+
+    - Atualizando arquivos Locais
+
+01 - git pull
