@@ -94,12 +94,12 @@ def find_package_data(
     return out
 
 
-PACKAGE = "libpython"
+PACKAGE = "ProjectJunto"
 NAME = PACKAGE
-DESCRIPTION = "Construção de Projetos em Python"
+DESCRIPTION = "Teste Junto Seguros"
 AUTHOR = "Augusto César"
 AUTHOR_EMAIL = "agt.fz@hotmail.com"
-URL = "https://github.com/AugustoCesar1001/PythonProjects"
+URL = "https://github.com/AugustoCesar1001/ProjectJunto"
 VERSION = __import__(PACKAGE).__version__
 
 setup(
