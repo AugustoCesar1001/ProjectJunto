@@ -1,8 +1,8 @@
 import datetime
 from app import db, ma
 
-
 """Definição de Classe Tabela"""
+
 class Users(db.Model):
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     username = db.Column(db.String(20), unique=True, nullable=False)
@@ -18,12 +18,12 @@ class Users(db.Model):
         self.email = email
 
 
-
 """Definindo Schema"""
+
 class UsersSchema(ma.Schema):
     class Meta:
         fields = ('id', 'username', 'name', 'email', 'password', 'created_on')
 
 
 user_schema = UsersSchema()
-users_schema = UsersSchema( many=True)
+users_schema = UsersSchema(many=True)
