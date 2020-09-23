@@ -7,13 +7,13 @@
 
 Para Instalar:
 
-''' Console
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements-dev.txt
-'''
+    ''' Console
+    python3 -m venv .venv
+    source .venv/bin/activate
+    pip install -r requirements-dev.txt
+    '''
 
-    Projeto:
+Projeto:
 
     - Utilizando Framework Flask
     - Criado Crud e Autenticação com JWT para testar no Postman ou Insomnia
