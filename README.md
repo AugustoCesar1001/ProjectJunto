@@ -1,12 +1,9 @@
-#PythonProjects
+#PythonTesteJunto
 
-Criado Projeto Padrão Python
+<h3> Teste Junto Seguros </h3>
 
-Suporta a versão 3 do python
+- Utilizando Python Versão 3.8
 
-
-[![Updates](https://pyup.io/repos/github/AugustoCesar1001/PythonProjects/shield.svg)](https://pyup.io/repos/github/AugustoCesar1001/PythonProjects/)
-[![Python 3](https://pyup.io/repos/github/AugustoCesar1001/PythonProjects/python-3-shield.svg)](https://pyup.io/repos/github/AugustoCesar1001/PythonProjects/)
 
 Para Instalar:
 
@@ -16,19 +13,9 @@ source .venv/bin/activate
 pip install -r requirements-dev.txt
 '''
 
-Para conferir a qualidade do código:
+    Projeto:
 
-'''console
-flake8
-'''
-
-
-Tópicos Configurados nesse Projeto Base:
-
-1. Git 
-2. Virtualenv
-3. Pip3
-4. .venv
-5. Requirements.txt and Requirements-dev.txt
-6. Flake8
-
+    - Utilizando Framework Flask
+    - Criado Crud e Autenticação com JWT para testar no Postman ou Insomnia
+    - Utilizando BD SqLite
+    - Pacotes utilizados no Projeto estão no Requirements-dev.txt

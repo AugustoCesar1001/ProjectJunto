@@ -35,6 +35,7 @@ def get_user(id):
 def delete_user(id):
     return users.delete_user(id)
 
+
 @app.route('/auth', methods=['POST'])
 def authenticate():
     return helper.auth()
