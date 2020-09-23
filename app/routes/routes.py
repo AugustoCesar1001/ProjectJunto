@@ -8,7 +8,7 @@ from ..views import helper
 @app.route('/', methods=['GET'])
 @helper.token_required
 def root(current_user):
-    return jsonify({'message': 'Hello Wooord!'})
+    return jsonify({'message': f'Hello {current_user.name}'})
 
 
 @app.route('/users', methods=['POST'])
