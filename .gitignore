@@ -28,6 +28,8 @@ t.py
 t2.py
 dist
 
+CMD.text
+
 /.mypy_cache/
 
 # virtualenv

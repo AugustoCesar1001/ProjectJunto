@@ -48,7 +48,6 @@ def update_user(id):
 
 
 def get_users():
-
     users = Users.query.all()
     if users:
         result = users_schema.dump(users)
